@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- font awsome -->
+  <script src="https://kit.fontawesome.com/52fb6b69b1.js" crossorigin="anonymous"></script>
+
+  <!-- bootswatch -->
+  <link rel="stylesheet" href="https://bootswatch.com/5/cosmo/bootstrap.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>MicroPosts</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-primary mb-3">
+    <div class="container">
+      <div class="navbar-brand">MicroPosts</div>
+    </div>
+  </nav>
+
+  <div class="container container-post">
+    <div class="card card-body card-form">
+      <h2>Say Something</h2>
+      <div class="lead">What's in your mind</div>
+      <div class="form-group">
+        <input type="text" class="form-control" id="title" placeholder="Post Title">
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" id="body" placeholder="Post Body"> </textarea>
+      </div>
+      <div class="form-group">
+        <input type="hidden" id="id">
+      </div>
+      <button class="post-submit btn btn-primary btn-block">Post It</button>
+      <span class="form-end"></span>
+    </div>
+    <br>
+    <div class="posts"></div>
+  </div>
+
+  <footer class="bg-light p-3 text-center mt-3">Copyright &copy;</footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="build/app.bundle.js"></script>
+</body>
+
+</html>
